@@ -10,7 +10,7 @@ function drawLine() {
 	canvas.height = window.innerHeight;
 	let context = canvas.getContext("2d");
 
-	context.fillStyle = "red";
+	context.fillStyle = "purple";
 	context.beginPath();
 	context.ellipse(200, 200, 100, 50, Math.PI / 4, 0, Math.PI * 2);
 	context.fill();
